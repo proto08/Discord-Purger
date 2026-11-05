@@ -13,4 +13,3 @@ func HasOwnerMiddleware(ctx *disgolf.MessageCtx) {
 		ctx.Next()
 	}
 }
-
