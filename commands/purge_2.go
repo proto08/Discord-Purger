@@ -17,10 +17,10 @@ import (
 )
 
 type SearchResponse struct {
-	AnalyticsID              string                   `json:"analytics_id"`
-	DoingDeepHistoricalIndex bool                     `json:"doing_deep_historical_index"`
-	TotalResults             int                      `json:"total_results"`
-	Messages                 [][]*discordgo.Message  `json:"messages"`
+	AnalyticsID              string                 `json:"analytics_id"`
+	DoingDeepHistoricalIndex bool                   `json:"doing_deep_historical_index"`
+	TotalResults             int                    `json:"total_results"`
+	Messages                 [][]*discordgo.Message `json:"messages"`
 }
 
 func HandlePurge2(prefix string) func(ctx *disgolf.MessageCtx) {

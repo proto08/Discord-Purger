@@ -69,4 +69,3 @@ func HandlePurge(prefix string) func(ctx *disgolf.MessageCtx) {
 		}
 	}
 }
-
